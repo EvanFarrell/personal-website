@@ -7,13 +7,20 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     'gatsby-transformer-remark',
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `images`,
+    //     // path: `${__dirname}/src/images`,
+    //     path: `${__dirname}/src/`,
+    //   },
+    // },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: `images`,
-        // path: `${__dirname}/src/images`,
-        path: `${__dirname}/src/`,
-      },
+        name: "fonts",
+        path: `${__dirname}/src/fonts/`
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

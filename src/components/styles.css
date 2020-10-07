@@ -1,3 +1,39 @@
 .blurb{
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
   }
+
+html{
+  font-family: "Garamond";
+}
+
+.container{
+  margin: 9rem auto;
+  max-width: 30rem;
+}
+
+h1 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 64px;
+}
+.blurb{
+  text-align: center;
+}
+.links{
+  margin: 0 auto;
+  padding-top: 38px;
+  display: flex;
+  max-width: 45%;
+  justify-content: center;
+}
+
+.link{
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+}
+
+.link-center{
+  justify-self: center;
+  margin: 0 1rem;
+}
