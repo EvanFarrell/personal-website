@@ -4,3 +4,9 @@
     font-style: normal;
     src: url("ITCGaramondStd-LtCond.otf");
 }
+@font-face {
+    font-family: "Sten";
+    font-weight: 500;
+    font-style: normal;
+    src: url("sten.woff2");
+}

@@ -3,7 +3,7 @@
   }
 
 html{
-  font-family: "Garamond";
+  font-family: "Sten";
 }
 
 .container{
@@ -15,7 +15,21 @@ h1 {
   font-weight: normal;
   text-align: center;
   font-size: 64px;
+  font-family: "Garamond";
 }
+
+.topol{
+  font-family: "Topol" !important;
+}
+
+.subtitle{
+  font-size: 22px;
+}
+
+.garamond{
+  font-family: "Garamond" !important;
+}
+
 .blurb{
   text-align: center;
 }
