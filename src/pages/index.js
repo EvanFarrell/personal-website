@@ -20,7 +20,7 @@ const IndexPage = () => (
       </p>
 
       <p class="blurb topol">
-      Hit me up at firstname at scholarme dot com
+      Hit me up at firstname at scholarme dot co
       </p>
 
       <div class="links topol">
