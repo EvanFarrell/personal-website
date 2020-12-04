@@ -33,6 +33,7 @@ const IndexPage = () => (
         <a class="link" href="https://www.twitter.com/@__evanf__">
           twitter
         </a>
+        <Link class="final-link link" to="/growth-hacks/">growth hacks</Link>
         <Link class="final-link link" to="/graditude/">graditude</Link>
       </div>
     </div>

@@ -11,6 +11,11 @@ html{
   max-width: 30rem;
 }
 
+.container-small{
+  margin: 9rem auto;
+  max-width: 25rem;
+}
+
 h1 {
   font-weight: normal;
   text-align: center;
@@ -37,7 +42,7 @@ h1 {
   margin: 0 auto;
   padding-top: 38px;
   display: flex;
-  max-width: 65%;
+  max-width: 90%;
   justify-content: center;
 }
 
