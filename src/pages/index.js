@@ -39,9 +39,9 @@ const IndexPage = () => {
           <p class="blurb topol">Hit me up at firstname at scholarme dot co</p>
 
           <div class="links topol">
-            <a class="link" href="http://blog.evanf.io">
-              blog
-            </a>
+            {/* <Link class="link" to="/essays/">
+              essays
+            </Link> */}
             <a class="link link-center" href="https://www.scholarme.com">
               scholarme
             </a>
