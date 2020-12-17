@@ -15,6 +15,7 @@ const IndexPage = () => {
     "Remember, you did this to yourself",
     "Gerrard: “But it doesn't do anything!” Hanna: “No—it does nothing.”",
     "Always carry two spears.",
+    "Despite everything, it's still you.",
     "Someone once told me the definition of Hell: The last day you have on earth, the person you became will meet the person you could have become – Anonymous",
   ]
   const quote = items[Math.floor(Math.random() * items.length)]
