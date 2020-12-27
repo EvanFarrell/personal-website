@@ -13,6 +13,7 @@ const IndexPage = () => {
     "Greatness, at any cost",
     "Less morose and more present",
     "Remember, you did this to yourself",
+    "Startups rarely die in mid keystroke. So keep typing!",
     "Gerrard: “But it doesn't do anything!” Hanna: “No—it does nothing.”",
     "Always carry two spears.",
     "Despite everything, it's still you.",
