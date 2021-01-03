@@ -18,6 +18,7 @@ const IndexPage = () => {
     "Always carry two spears.",
     "Despite everything, it's still you.",
     "* You are filled with DETERMINATION.",
+    "“Mr Hyde, meet Dr Jekyll's fist” -- Beeminder.com",
     "Someone once told me the definition of Hell: The last day you have on earth, the person you became will meet the person you could have become – Anonymous",
   ]
   const quote = items[Math.floor(Math.random() * items.length)]
