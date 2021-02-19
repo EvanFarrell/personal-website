@@ -55,9 +55,12 @@ const IndexPage = () => {
             <Link class="final-link link" to="/growth-hacks/">
               growth hacks
             </Link>
-            <Link class="final-link link" to="/graditude/">
+            {/* <Link class="final-link link" to="/graditude/">
               graditude
-            </Link>
+            </Link> */}
+            <a target="_blank" class="final-link link" href="https://www.beeminder.com/evanfarrell">
+              habits
+            </a>
           </div>
         </div>
         <div class="footer">

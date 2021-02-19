@@ -14,7 +14,7 @@ const GraditudePage = () => (
         Form a 501(c)(3) for 10k in free monthly adwords credits
       </p>
       <p class="topol">Pay micro-influencers to simultaneously retweet a marketing tweet the second it went out, and have a prompt for other users to RT to get access to the product</p>
-      <p class="topol">FOIA Request public colleges for all their current enrolled students</p>
+      <p class="topol">FOIA Request public colleges for all their current enrolled students' emails</p>
       <p class="topol">Scrape campuslabs to get emails of all club-members and club captains of every college club in the country</p>
       <p class="topol">Build an online defensive driving course to enable graduates to get insurance deductions. Use that to lead gen your insurance product.</p>
       <p class="topol">Use tinder bots to promote your chat app. "Not on here often, dm me on CoolChatApp, I'm @evan97"</p>
