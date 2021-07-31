@@ -32,7 +32,7 @@ const IndexPage = () => {
           <p class="blurb topol subtitle">Entrepreneur & college dropout</p>
           <p class="blurb topol">
             Cofounded Scholarly, then ScholarMe (naming was a total coincidence,
-            believe it or not). I love vintage tech t-shirts, strategy card
+            believe it or not), which rebranded to Path. I love vintage tech t-shirts, strategy card
             games, and obsessing over how to maximize deep work.
           </p>
           <p class="blurb topol">
@@ -46,8 +46,8 @@ const IndexPage = () => {
             {/* <Link class="link" to="/essays/">
               essays
             </Link> */}
-            <a class="link link-center" href="https://www.scholarme.com">
-              scholarme
+            <a class="link link-center" href="https://usepath.com">
+              path
             </a>
             <a class="link" href="https://www.twitter.com/@__evanf__">
               twitter
@@ -55,9 +55,6 @@ const IndexPage = () => {
             <Link class="final-link link" to="/growth-hacks/">
               growth hacks
             </Link>
-            {/* <Link class="final-link link" to="/graditude/">
-              graditude
-            </Link> */}
             <a target="_blank" class="final-link link" href="https://www.beeminder.com/evanfarrell">
               habits
             </a>
