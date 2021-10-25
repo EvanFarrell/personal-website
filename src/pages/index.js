@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
@@ -7,6 +7,8 @@ import SEO from "../components/seo"
 
 const IndexPage = () => {
   const items = [
+    "By any means necessary",
+    "I ain't mean, I'm just focused",
     "Did you call me from a séance?",
     "And to you it's just a late night out",
     "The only way out is through",
@@ -16,12 +18,20 @@ const IndexPage = () => {
     "Startups rarely die in mid keystroke. So keep typing!",
     "Gerrard: “But it doesn't do anything!” Hanna: “No—it does nothing.”",
     "Always carry two spears.",
+    "Force of will",
     "Despite everything, it's still you.",
     "* You are filled with DETERMINATION.",
     "“Mr Hyde, meet Dr Jekyll's fist” -- Beeminder.com",
     "Someone once told me the definition of Hell: The last day you have on earth, the person you became will meet the person you could have become – Anonymous",
   ]
-  const quote = items[Math.floor(Math.random() * items.length)]
+
+  const [quote, setQuote] = useState("")
+
+  useEffect(() => {
+    const quoteString = items[Math.floor(Math.random() * items.length)]
+    console.log(quoteString)
+    setQuote(quoteString)
+  }, [])
 
   return (
     <Layout>
