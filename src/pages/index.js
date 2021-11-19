@@ -14,12 +14,14 @@ const IndexPage = () => {
     "The only way out is through",
     "Greatness, at any cost",
     "Less morose and more present",
+    "Dwell on my gifts for a second`",
     "Remember, you did this to yourself",
     "Startups rarely die in mid keystroke. So keep typing!",
     "Gerrard: “But it doesn't do anything!” Hanna: “No—it does nothing.”",
     "Always carry two spears.",
     "Force of will",
     "Despite everything, it's still you.",
+    "Not everything worth doing is worth doing well",
     "* You are filled with DETERMINATION.",
     "“Mr Hyde, meet Dr Jekyll's fist” -- Beeminder.com",
     "Someone once told me the definition of Hell: The last day you have on earth, the person you became will meet the person you could have become – Anonymous",
@@ -39,7 +41,7 @@ const IndexPage = () => {
       <div class="page-wrapper">
         <div class="container">
           <h1>Evan Farrell</h1>
-          <p class="blurb topol subtitle">Entrepreneur & college dropout</p>
+          <p class="blurb topol subtitle">Founder & college dropout</p>
           <p class="blurb topol">
             Cofounded Scholarly, then ScholarMe (naming was a total coincidence,
             believe it or not), which rebranded to Path. I love vintage tech t-shirts, strategy card
@@ -53,9 +55,9 @@ const IndexPage = () => {
           <p class="blurb topol">Hit me up at firstname at scholarme dot co</p>
 
           <div class="links topol">
-            {/* <Link class="link" to="/essays/">
-              essays
-            </Link> */}
+            <Link class="link" to="/essays/">
+              writing
+            </Link>
             <a class="link link-center" href="https://usepath.com">
               path
             </a>
@@ -64,6 +66,9 @@ const IndexPage = () => {
             </a>
             <Link class="final-link link" to="/growth-hacks/">
               growth hacks
+            </Link>
+            <Link class="final-link link" to="https://cal.com/ev">
+              meet me
             </Link>
             <a target="_blank" class="final-link link" href="https://www.beeminder.com/evanfarrell">
               habits

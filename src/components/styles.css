@@ -23,6 +23,16 @@ h1 {
   font-family: "Garamond";
 }
 
+h3 {
+  font-weight: normal;
+  font-size: 28px;
+  font-family: "Garamond";
+}
+
+p{
+  font-family: "Topol" !important;
+}
+
 .topol{
   font-family: "Topol" !important;
 }

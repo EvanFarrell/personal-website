@@ -22,7 +22,10 @@ const EssaysPage = ({data}) => (
       </div>
     ))}
       <div class="links topol">
-        <Link class="link" to="/">
+        <Link class="link" to="https://medium.com/@evan_farrell/about">
+          old writing
+        </Link>
+        <Link class="final-link link" to="/">
           back to home
         </Link>
       </div>
