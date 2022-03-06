@@ -10,7 +10,6 @@ const IndexPage = () => {
     "By any means necessary",
     "I ain't mean, I'm just focused",
     "Did you call me from a séance?",
-    "And to you it's just a late night out",
     "The only way out is through",
     "Greatness, at any cost",
     "Less morose and more present",
@@ -20,6 +19,7 @@ const IndexPage = () => {
     "Gerrard: “But it doesn't do anything!” Hanna: “No—it does nothing.”",
     "Always carry two spears.",
     "Force of will",
+    "'Cause how you get there is the worthier part.",
     "Despite everything, it's still you.",
     "Not everything worth doing is worth doing well",
     "* You are filled with DETERMINATION.",
@@ -44,8 +44,9 @@ const IndexPage = () => {
           <p class="blurb topol subtitle">Founder & college dropout</p>
           <p class="blurb topol">
             Cofounded Scholarly, then ScholarMe (naming was a total coincidence,
-            believe it or not), which rebranded to Path. I love vintage tech t-shirts, strategy card
-            games, and obsessing over how to maximize deep work.
+            believe it or not), which rebranded to Path. I love vintage tech
+            t-shirts, strategy card games, and obsessing over how to maximize
+            deep work.
           </p>
           <p class="blurb topol">
             I believe it's important to work on a few, long, important projects,
@@ -70,7 +71,11 @@ const IndexPage = () => {
             <Link class="final-link link" to="https://cal.com/ev">
               meet me
             </Link>
-            <a target="_blank" class="final-link link" href="https://www.beeminder.com/evanfarrell">
+            <a
+              target="_blank"
+              class="final-link link"
+              href="https://www.beeminder.com/evanfarrell"
+            >
               habits
             </a>
           </div>
