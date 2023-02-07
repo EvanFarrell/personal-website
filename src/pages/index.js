@@ -34,7 +34,7 @@ const IndexPage = () => {
     console.log(quoteString)
     setQuote(quoteString)
   }, [])
-
+  // asdf
   return (
     <Layout>
       <SEO title="Home" />
