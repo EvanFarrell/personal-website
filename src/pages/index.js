@@ -13,7 +13,7 @@ const IndexPage = () => {
     "The only way out is through",
     "Greatness, at any cost",
     "Less morose and more present",
-    "Dwell on my gifts for a second`",
+    "Dwell on my gifts for a second",
     "Remember, you did this to yourself",
     "Startups rarely die in mid keystroke. So keep typing!",
     "Gerrard: “But it doesn't do anything!” Hanna: “No—it does nothing.”",
@@ -56,13 +56,13 @@ const IndexPage = () => {
           <p class="blurb topol">Hit me up at firstname at scholarme dot co</p>
 
           <div class="links topol">
-            <Link class="link" to="/essays/">
+            {/* <Link class="link" to="/essays/">
               writing
-            </Link>
-            <a class="link link-center" href="https://usepath.com">
+            </Link> */}
+            <a class="link link-center" href="https://path.me">
               path
             </a>
-            <a class="link" href="https://www.twitter.com/@__evanf__">
+            <a class="link" href="https://www.twitter.com/@evfrl">
               twitter
             </a>
             <Link class="final-link link" to="/growth-hacks/">
@@ -71,13 +71,13 @@ const IndexPage = () => {
             <Link class="final-link link" to="https://cal.com/ev">
               meet me
             </Link>
-            <a
+            {/* <a
               target="_blank"
               class="final-link link"
               href="https://www.beeminder.com/evanfarrell"
             >
               habits
-            </a>
+            </a> */}
           </div>
         </div>
         <div class="footer">
